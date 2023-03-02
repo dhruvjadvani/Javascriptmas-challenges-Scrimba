@@ -1,1 +1,5 @@
+function validTime(str) {
 
+   return
+
+}
