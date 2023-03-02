@@ -6,7 +6,7 @@ function sortByLength(strs) {
   
     for(let i = 0; i < arr.length; i++) {
             
-        if(pointerTwo >= strs.length) {
+        if(pointerTwo >= arr.length) {
             break;
         }
         
