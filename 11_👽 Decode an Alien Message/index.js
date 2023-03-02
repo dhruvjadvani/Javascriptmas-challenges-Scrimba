@@ -41,9 +41,9 @@ reverse the strings manually.
 */ 
 
 function reverseStringsInArray(arr){
-    let newArr = [...arr];
+    let newArr = [];
     
-    newArr = newArr.map(str => reverseString(str));
+    newArr = arr.map(str => reverseString(str));
     return newArr;
 }
 
